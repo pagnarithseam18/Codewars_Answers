@@ -1,0 +1,6 @@
+function bonusTime(salary, bonus) {
+if(bonus==true)
+return '£'+(salary*10).toString();
+else
+return '£'+salary.toString();
+}
